@@ -1,0 +1,28 @@
+.app {
+  text-align: center;
+  padding: 2rem;
+  font-family: san-serif;
+}
+
+.card, .ban-list, .history {
+  margin-top: 1.5rem;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+p{
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+p:hover{
+  color: crimson;
+}
+
+.history-grid{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
